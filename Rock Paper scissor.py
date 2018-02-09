@@ -66,7 +66,7 @@ if __name__ == "__main__":
     nextmove = random.choice(game_set)
     n = int(input("Enter the number of time you want to play : "))
     while(count <= n):
-        usermove = input("Please choose from [rock, paper, scissor] : 20")
+        usermove = input("Please choose from [rock, paper, scissor] : ")
         if(firsttime == True):
             firsttime = False
             computermove = random.choice(game_set)
